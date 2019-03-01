@@ -1,19 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title> WELCOME WELCOME WELCOME </title>
+        <title> The Jologs Notes </title>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <style>
+       /* make the image fully responsive */ 
+       .carousel-inner img {
+           width:100%;
+           height:;
+       }     
+       body {
+           background-color:floralwhite;
+       }
+    </style>
     </head>    
     <body>
-       <div class="container">       
-            <h1 style="font-family:monospace;">Up and Running HTML5 Video</h1>
-            <h2>Simple Machine Project</h2>
-            <p>Here is the video I shot, up and running in Chrome:</p>
+        
+
+        <div class="jumbotron text-center">
+           <img src="assets/Butterfly-logo1.png" ALT="B&W" width=60 height=40>
+            <h1 style="font-family:monospace;"> TJN </h1>
+            <p>Welcome to the Page!</p>
+        </div>
+        
+       <!-- Carousel-->
+        
+        <div class="container mt-3">
+        <h2> </h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        
+        <!-- indicators -->
+        <ul class="carousel-indicators">
+           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+           <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+           <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+        </ul>
+        
+        <!-- the slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">  
+           <img src="assets/morphobutter.jpg" alt="butterfly" width="1100" height="500">
+          </div> 
+          <div class="carousel-item">
+              <img src="assets/morphobutter.jpg" alt="Butterfly" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+              <img src="assets/morphobutter.jpg" alt="Butterfly" width="1100" height="500">
+          </div>   
+        </div>    
+        
+        <!--Left and right controls for carousel-->
+         <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+         </a>
+         <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+         </a>
+        </div> 
+        </div>
+        <!--end of carousel code-->
+            
+            
+        <div class="container">
+            <div class="row">
+           
+            <div class="col-sm-4">  
+              <h3>Column 1</h3>
+                <p>Text</p>
+                <p>Text</p>
+            </div>    
+                
+            <div class="col-sm-4">
+              <h3>Column 2</h3>  
+                <p>Text</p>
+                <p>Text</p>
+            </div>
+                
+            <div>
+              <h3>Column 3</h3>
+                <p>Text</p>
+                <p>Text</p>                
+            </div>
+          </div>
+         </div>
+       
+        <div class="container">
+            <p>Here is the first simple machine I made </p>
             <video width="720" height="480" controls>
             <source src="assets/scienceproject_1.mp4" type="video/mp4">
             <p>Your browser does not support HTML5</p>    
             </video>        
-            <p>Objective: Turn off the light</p>
-        </div>        
+            <br><p>Objective: Turn off the light</p>
+        </div>
     </body>
-</html>
+</html> 
     
